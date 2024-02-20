@@ -50,12 +50,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\AverageCalcPage.xaml.cs">
+	    <DependentUpon>AverageCalcPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\StartPage.xaml.cs">
 	    <DependentUpon>StartPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\AverageCalcPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\StartPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

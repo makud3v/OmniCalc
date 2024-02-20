@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OmniCalc.Views.AverageCalcPage"
+             Title="Average Calculator"
+             BackgroundColor="White">
+    <VerticalStackLayout>
+        <Label
+            Text="Average Calculator"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="Large"
+            TextColor="Black"
+            Margin="0,20,0,0"/>
+
+        <Label  
+            Text="(a₁ + a₂ + ... + aₙ "
+            Margin="0,20,0,0"
+            BackgroundColor="#deb685"
+            TextColor="Black">
+  
+        </Label>
+        
+
+        <Entry
+            Placeholder="Enter Number #1"
+            Margin="0,20,0,0">
+            
+            
+        </Entry>
+
+        <Entry
+            Placeholder="Enter Number #2"
+            Margin="0,20,0,0">
+        </Entry>
+
+        <Entry
+            Placeholder="Enter Number #3"
+            Margin="0,20,0,0">
+        </Entry>
+
+
+
+    </VerticalStackLayout>
+
+
+
+
+</ContentPage>
