@@ -23,40 +23,33 @@
             HorizontalOptions="Center"
         />
 
-        <Border
-            Margin="0,20,0,0"
-            WidthRequest="200"
-            BackgroundColor="#403a33"
+
+        <HorizontalStackLayout
+            
+            Margin="0,100,0,0"
+            HorizontalOptions="Center"
             >
+            <Label
+                Text="a"
+                FontSize="28"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+            />
             <Entry
+                WidthRequest="200"
                 FontSize="20"
                 HorizontalOptions="FillAndExpand"
-                BackgroundColor="#dbc9b2"
+                BackgroundColor="#FFFFFF"
                 PlaceholderColor="#5D4444"
                 Placeholder="0"
                 IsTextPredictionEnabled="False"
                 Keyboard="Numeric"
-            
-              />
+                HorizontalTextAlignment="End"
+                HandlerChanged="Entry_HandlerChanged"
+                />
+        </HorizontalStackLayout>
 
-        </Border>
 
-        <Border
-            Margin="0,20,0,0"
-            WidthRequest="200"
-            BackgroundColor="#403a33"
-            >
-            <Entry
-                FontSize="20"
-                HorizontalOptions="FillAndExpand"
-                BackgroundColor="#dbc9b2"
-                PlaceholderColor="#5D4444"
-                Placeholder="0"
-                IsTextPredictionEnabled="False"
-                Keyboard="Numeric"
-            
-              />
 
-        </Border>
     </VerticalStackLayout>
 </ContentPage>
