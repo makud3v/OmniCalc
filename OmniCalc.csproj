@@ -54,19 +54,31 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\PercentageCalculation\PercentageCalculationPage.xaml.cs">
+	    <DependentUpon>PercentageCalculationPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\StartPage.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\PythagoreanTheorem\PythagoreanTheoremPage.xaml.cs">
 	    <DependentUpon>PythagoreanTheoremPage.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Views\StartPage.xaml.cs">
+	  <Compile Update="Views\PythagoreanTheorem\StartPage.xaml.cs">
 	    <DependentUpon>StartPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\PythagoreanTheorem\PythagoreanTheoremPage.xaml">
+	  <MauiXaml Update="Views\PercentageCalculation\PercentageCalculationPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\StartPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\PythagoreanTheorem\PythagoreanTheoremPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\PythagoreanTheorem\StartPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

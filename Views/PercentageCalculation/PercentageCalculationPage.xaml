@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="OmniCalc.Views.PercentageCalculation.PercentageCalculationPage"
+             Title="Percentage Calculation">
+    <VerticalStackLayout
+        >
+        <Label 
+            Text="Percentage Calculation"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="Large"
+            />
+
+
+        <Label
+            Padding="20,5"
+            BackgroundColor="#deb685"
+            Margin="0,50,0,0"
+            HorizontalOptions="Center"
+        />
+
+        <Border
+            Margin="0,20,0,0"
+            WidthRequest="200"
+            BackgroundColor="#403a33"
+            >
+            <Entry
+                FontSize="20"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="#dbc9b2"
+                PlaceholderColor="#5D4444"
+                Placeholder="0"
+                IsTextPredictionEnabled="False"
+                Keyboard="Numeric"
+            
+              />
+
+        </Border>
+
+        <Border
+            Margin="0,20,0,0"
+            WidthRequest="200"
+            BackgroundColor="#403a33"
+            >
+            <Entry
+                FontSize="20"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="#dbc9b2"
+                PlaceholderColor="#5D4444"
+                Placeholder="0"
+                IsTextPredictionEnabled="False"
+                Keyboard="Numeric"
+            
+              />
+
+        </Border>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,5 +1,7 @@
 ﻿namespace OmniCalc;
-using OmniCalc.Views.PythagoreanTheorem;
+
+using OmniCalc.Views.PercentageCalculation;
+
 
 
 #if WINDOWS
@@ -31,6 +33,7 @@ public partial class App : Application
             #endif
         });
 
-        MainPage = new NavigationPage(new PythagoreanTheoremPage());
+
+        MainPage = new NavigationPage(new PercentageCalculationPage());
     }
 }
