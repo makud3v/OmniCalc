@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "a63XWRVwM/Iw7sGVYWXmcPvFyZOu+QKsbHTKi1ZS1hdUsMLNgHgeogQtiETp4arfSGQdxjguDzmiRiPg/es+tQ==",
+  "dgSpecHash": "BvWWarO5b0M0UXewpRNPgbn2Wikso2fVMg8KAfE28LgweSkeTTe5hsptf1GJafPWMrdU9wiXSfMmFCVHVFSZoQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\opilane\\source\\repos\\OmniCalc\\OmniCalc.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\opilane\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\opilane\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
