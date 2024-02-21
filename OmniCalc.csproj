@@ -50,6 +50,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Compile Update="Views\PythagoreanTheorem\PythagoreanTheoremPage.xaml.cs">
 	    <DependentUpon>PythagoreanTheoremPage.xaml</DependentUpon>
 	  </Compile>
