@@ -39,3 +39,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = OmniCalc.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/opilane/source/repos/OmniCalc/Views/PythagoreanTheorem/PythagoreanTheoremPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = OmniCalc.Views.PythagoreanTheorem.PythagoreanTheoremPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PythagoreanTheorem\PythagoreanTheoremPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PythagoreanTheorem\PythagoreanTheoremPage.xaml
+
+[C:/Users/opilane/source/repos/OmniCalc/Views/StartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = OmniCalc.Views.StartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\StartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\StartPage.xaml
