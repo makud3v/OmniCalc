@@ -14,30 +14,58 @@
             Margin="0,20,0,0"/>
 
         <Label  
-            Text="(a₁ + a₂ + ... + aₙ "
+            Text="(a₁ + a₂ + ... + aₙ) ÷ n"
+            FontSize="28"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
             Margin="0,20,0,0"
+            Padding="10,10,10,10"
             BackgroundColor="#deb685"
             TextColor="Black">
   
         </Label>
-        
 
+        
         <Entry
             Placeholder="Enter Number #1"
-            Margin="0,20,0,0">
-            
+            Margin="0,50,0,0"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            TextColor="Black"
+            >
             
         </Entry>
-
+        
         <Entry
             Placeholder="Enter Number #2"
-            Margin="0,20,0,0">
+            Margin="0,30,0,0"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
         </Entry>
-
+        
         <Entry
             Placeholder="Enter Number #3"
-            Margin="0,20,0,0">
+            Margin="0,30,0,0"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
         </Entry>
+        
+        <Entry
+            Placeholder="Enter Number #4"
+            Margin="0,30,0,0"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
+        </Entry>
+        
+        <Entry
+            Placeholder="Enter Number #5"
+            Margin="0,30,0,0"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
+            
+        </Entry>
+
+        
 
 
 
