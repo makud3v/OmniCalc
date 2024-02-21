@@ -45,7 +45,7 @@
                 IsTextPredictionEnabled="False"
                 Keyboard="Numeric"
                 HorizontalTextAlignment="End"
-                HandlerChanged="Entry_HandlerChanged"
+                BindingContext="{Binding Source=A}"
                 />
         </HorizontalStackLayout>
 

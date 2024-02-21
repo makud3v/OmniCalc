@@ -6,9 +6,4 @@ public partial class PythagoreanTheoremPage : ContentPage
 	{
 		InitializeComponent();
 	}
-
-    private void Entry_HandlerChanged(object sender, EventArgs e)
-    {
-
-    }
 }
