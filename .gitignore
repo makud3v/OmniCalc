@@ -3,3 +3,4 @@ obj
 App.xaml
 App.xaml.cs
 .vs
+ViewModels/PythagoreanTheoremViewModel.cs
