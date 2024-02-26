@@ -18,45 +18,75 @@
             Text="a2 + b2 = c2"
             FontSize="28"
             Padding="20,5"
-            BackgroundColor="#deb685"
+            BackgroundColor="#EED4B5"
             Margin="0,50,0,0"
             HorizontalOptions="Center"
         />
 
-        <Border
-            Margin="0,20,0,0"
-            WidthRequest="200"
-            BackgroundColor="#403a33"
+        <HorizontalStackLayout
+                Margin="0,20,0,0"                
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
             >
+            <Label 
+                Text="a"
+                FontSize="28"
+                VerticalOptions="Center"
+            />
             <Entry
-                FontSize="20"
-                HorizontalOptions="FillAndExpand"
-                BackgroundColor="#dbc9b2"
-                PlaceholderColor="#5D4444"
-                Placeholder="0"
-                IsTextPredictionEnabled="False"
-                Keyboard="Numeric"
-            
-              />
+                    WidthRequest="200"
+                    FontSize="20"
+                    PlaceholderColor="#5D4444"
+                    Placeholder="0"
+                    IsTextPredictionEnabled="False"
+                    Keyboard="Numeric"
+                    HorizontalTextAlignment="End"
+                    ClassId="Calc:A"
+                />
+        </HorizontalStackLayout>
 
-        </Border>
-
-        <Border
-            Margin="0,20,0,0"
-            WidthRequest="200"
-            BackgroundColor="#403a33"
+        <HorizontalStackLayout
+                Margin="0,20,0,0"                
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
             >
+            <Label 
+                Text="b"
+                FontSize="28"
+                VerticalOptions="Center"
+            />
             <Entry
-                FontSize="20"
-                HorizontalOptions="FillAndExpand"
-                BackgroundColor="#dbc9b2"
-                PlaceholderColor="#5D4444"
-                Placeholder="0"
-                IsTextPredictionEnabled="False"
-                Keyboard="Numeric"
-            
-              />
+                    WidthRequest="200"
+                    FontSize="20"
+                    PlaceholderColor="#5D4444"
+                    Placeholder="0"
+                    IsTextPredictionEnabled="False"
+                    Keyboard="Numeric"
+                    HorizontalTextAlignment="End"
+                    ClassId="Calc:B"
+                />
+        </HorizontalStackLayout>
 
-        </Border>
+        <HorizontalStackLayout
+                Margin="0,20,0,0"                
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+            >
+            <Label 
+                Text="c"
+                FontSize="28"
+                VerticalOptions="Center"
+            />
+            <Entry
+                    WidthRequest="200"
+                    FontSize="20"
+                    PlaceholderColor="#5D4444"
+                    Placeholder="0"
+                    IsTextPredictionEnabled="False"
+                    Keyboard="Numeric"
+                    HorizontalTextAlignment="End"
+                    ClassId="Calc:C"
+                />
+        </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
