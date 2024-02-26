@@ -572,4 +572,3 @@ C:\Users\opilane\source\repos\OmniCalc\bin\Debug\net6.0-windows10.0.19041.0\win1
 C:\Users\opilane\source\repos\OmniCalc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Power.winmd
 C:\Users\opilane\source\repos\OmniCalc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.winmd
 C:\Users\opilane\source\repos\OmniCalc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Controls.pri
-C:\Users\opilane\source\repos\OmniCalc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll

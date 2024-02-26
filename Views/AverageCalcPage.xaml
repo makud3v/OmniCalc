@@ -11,7 +11,7 @@
             HorizontalOptions="Center"
             FontSize="Large"
             TextColor="Black"
-            Margin="0,20,0,0"/>
+            Margin="0,50,0,0"/>
 
         <Label  
             Text="(a₁ + a₂ + ... + aₙ) ÷ n"
@@ -21,49 +21,73 @@
             Margin="0,20,0,0"
             Padding="10,10,10,10"
             BackgroundColor="#deb685"
-            TextColor="Black">
+            TextColor="Black"
+            ClassId="AverageEntry">
   
         </Label>
 
-        
+
         <Entry
             Placeholder="Enter Number #1"
             Margin="0,50,0,0"
             HorizontalOptions="Center"
             VerticalOptions="Center"
             TextColor="Black"
-            >
-            
+            ClassId="AverageEntry">
+
         </Entry>
         
         <Entry
             Placeholder="Enter Number #2"
             Margin="0,30,0,0"
             HorizontalOptions="Center"
-            VerticalOptions="Center">
+            VerticalOptions="Center"
+            TextColor="Black"
+            ClassId="AverageEntry">
         </Entry>
-        
+
         <Entry
             Placeholder="Enter Number #3"
             Margin="0,30,0,0"
             HorizontalOptions="Center"
-            VerticalOptions="Center">
+            VerticalOptions="Center"
+            TextColor="Black"
+            ClassId="AverageEntry">
         </Entry>
         
         <Entry
             Placeholder="Enter Number #4"
             Margin="0,30,0,0"
             HorizontalOptions="Center"
-            VerticalOptions="Center">
+            VerticalOptions="Center"
+            TextColor="Black"
+            ClassId="AverageEntry">
         </Entry>
-        
+
         <Entry
             Placeholder="Enter Number #5"
             Margin="0,30,0,0"
             HorizontalOptions="Center"
-            VerticalOptions="Center">
+            VerticalOptions="Center"
+            TextColor="Black"
+            ClassId="AverageEntry">
             
         </Entry>
+
+        <Button
+            Text="Calculate"
+            BorderColor="#000000"
+            BorderWidth="1"
+            Padding= "40,10"
+            Margin="50"
+            TextColor="White"
+            BackgroundColor="#1A1A9B"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            Clicked="On_Calculated">
+
+
+        </Button>
 
         
 
