@@ -6,6 +6,5 @@ public partial class PythagoreanTheoremPage : ContentPage
 	{
 		InitializeComponent();
 
-        BindingContext = new PythagoreanTheoremViewModel();
     }
 }
