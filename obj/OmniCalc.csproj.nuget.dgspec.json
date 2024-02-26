@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\source\\repos\\TARpe22\\OmniCalc\\OmniCalc.csproj": {}
+    "C:\\Users\\opilane\\source\\repos\\OmniCalc\\OmniCalc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\source\\repos\\TARpe22\\OmniCalc\\OmniCalc.csproj": {
+    "C:\\Users\\opilane\\source\\repos\\OmniCalc\\OmniCalc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\TARpe22\\OmniCalc\\OmniCalc.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\OmniCalc\\OmniCalc.csproj",
         "projectName": "OmniCalc",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\TARpe22\\OmniCalc\\OmniCalc.csproj",
+        "projectPath": "C:\\Users\\opilane\\source\\repos\\OmniCalc\\OmniCalc.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\TARpe22\\OmniCalc\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\source\\repos\\OmniCalc\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
