@@ -1,6 +1,7 @@
-bin
-obj
-App.xaml
-App.xaml.cs
-.vs
-ViewModels/PythagoreanTheoremViewModel.cs
+/bin
+/obj
+/.vs
+/Properties
+/Platforms
+/*.cs
+/*.xaml.cs

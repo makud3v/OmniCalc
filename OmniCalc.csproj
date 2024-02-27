@@ -50,18 +50,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Views\PythagoreanTheorem\PythagoreanTheoremPage.xaml.cs">
-	    <DependentUpon>PythagoreanTheoremPage.xaml</DependentUpon>
-	  </Compile>
+	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Compile Update="Views\StartPage.xaml.cs">
 	    <DependentUpon>StartPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\PythagoreanTheorem\PythagoreanTheoremPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Views\StartPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
