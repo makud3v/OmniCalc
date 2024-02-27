@@ -2,13 +2,17 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OmniCalc.Views.StartPage"
-             Title="StartPage">
+             Title="Home Page"
+             BackgroundColor="#114161"
+             >
     <VerticalStackLayout
         HorizontalOptions="Center"
         VerticalOptions="Center"
         >
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="OmniCalc"
+            FontSize="40"
+            TextColor="#16f5f5"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
@@ -19,8 +23,8 @@
             TextColor="#1165FF"
             HorizontalOptions="StartAndExpand"
             VerticalOptions="StartAndExpand"
-            FontSize="32"
-            BackgroundColor="Transparent"
+            FontSize="30"
+            BackgroundColor="#132f42"
             BorderWidth="0"
             Clicked="NavigatePythTheoClicked"
         />
@@ -30,8 +34,8 @@
             TextColor="#1165FF"
             HorizontalOptions="StartAndExpand"
             VerticalOptions="StartAndExpand"
-            FontSize="32"
-            BackgroundColor="Transparent"
+            FontSize="30"
+            BackgroundColor="#132f42"
             BorderWidth="0"
             Clicked="NavigatePercentClicked"
         />
@@ -41,8 +45,8 @@
             TextColor="#1165FF"
             HorizontalOptions="StartAndExpand"
             VerticalOptions="StartAndExpand"
-            FontSize="32"
-            BackgroundColor="Transparent"
+            FontSize="30"
+            BackgroundColor="#132f42"
             BorderWidth="0"
             Clicked="NavigateAverageClicked"
         />
