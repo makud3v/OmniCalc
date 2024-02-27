@@ -1,7 +1,5 @@
-/bin
-/obj
-/.vs
-/Properties
-/Platforms
-/*.cs
-/*.xaml.cs
+./bin
+./obj
+App.xaml
+App.xaml.cs
+./.vs
