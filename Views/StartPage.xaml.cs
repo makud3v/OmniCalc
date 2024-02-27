@@ -6,4 +6,9 @@ public partial class StartPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void NavigatePythTheoClicked(object sender, EventArgs e)
+    {
+        Application.Current.MainPage = new NavigationPage(new PythagoreanTheoremPage());
+    }
 }
