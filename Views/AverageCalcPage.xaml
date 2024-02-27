@@ -89,7 +89,17 @@
 
         </Button>
 
-        
+
+        <Label
+            ClassId="Result" 
+            FontSize="36"
+            Text="77"
+            TextColor="Black"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            />
+
+
 
 
 

@@ -8,20 +8,40 @@ public partial class AverageCalcPage : ContentPage
 		InitializeComponent();
 	}
 
-    private string On_Calculated(object sender, EventArgs e)
+    private void On_Calculated(object sender, EventArgs e)
     {
-		var result = "";
-		foreach (var child in Content.GetVisualTreeDescendants())
-		{
+        int entryCount = 0;
+        float totalSum = 0;
+        foreach (var child in Content.GetVisualTreeDescendants())
+        {
+            string? id = (child as Entry)?.ClassId;
 
-			string? id = (child as Entry)?.ClassId;
+            if (id == null || id != "AverageEntry") continue;
+            Entry c = child as Entry;
 
-			if (id != null || id != "AverageEntry") continue;
-			Entry c = child as Entry;
-			result += c.Text;
-			
-		}
-		return result;
+            try
+            {
+                float convertedEntry = float.Parse(c.Text);
+                entryCount += 1;
+                totalSum += convertedEntry;
+            }
+            catch { }
+        }
+        
+        float result = totalSum / entryCount;
+        string resultAsString = result.ToString();
+
+
+        foreach (Element child in Content.GetVisualTreeDescendants().Cast<Element>())
+        {
+            string? id = child?.ClassId;
+
+            if (id == null || id != "Result") continue;
+            Label l = child as Label;
+            l.Text = resultAsString;
+
+        }
     }
+
 }
 
