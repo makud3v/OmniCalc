@@ -24,5 +24,27 @@
             BorderWidth="0"
             Clicked="NavigatePythTheoClicked"
         />
+
+        <Button
+            Text="Percentage Calculator"
+            TextColor="#1165FF"
+            HorizontalOptions="StartAndExpand"
+            VerticalOptions="StartAndExpand"
+            FontSize="32"
+            BackgroundColor="Transparent"
+            BorderWidth="0"
+            Clicked="NavigatePercentClicked"
+        />
+
+        <Button
+            Text="Average Calculator"
+            TextColor="#1165FF"
+            HorizontalOptions="StartAndExpand"
+            VerticalOptions="StartAndExpand"
+            FontSize="32"
+            BackgroundColor="Transparent"
+            BorderWidth="0"
+            Clicked="NavigateAverageClicked"
+        />
     </VerticalStackLayout>
 </ContentPage>
