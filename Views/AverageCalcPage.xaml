@@ -8,12 +8,13 @@
         <Button 
             Text="←"
             FontSize="42"
-            Padding="2"
+            Padding="0.5"
             Margin="10,0"
             BackgroundColor="#1A1A9B"
-            HorizontalOptions="StartAndExpand"
-            VerticalOptions="StartAndExpand"
+            HorizontalOptions="Start"
+            VerticalOptions="Start"
             Clicked="OnBackClicked"
+            TextColor="White"
         />
 
         <Label
