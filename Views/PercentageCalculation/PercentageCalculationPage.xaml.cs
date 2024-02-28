@@ -1,11 +1,28 @@
-namespace OmniCalc.Views.PercentageCalculation;
+using System;
+using Microsoft.Maui.Controls;
 
-public partial class PercentageCalculationPage : ContentPage
+namespace OmniCalc.Views.PercentageCalculation
 {
-	public PercentageCalculationPage()
-	{
-        InitializeComponent();
+    public partial class PercentageCalculationPage : ContentPage
+    {
+        public PercentageCalculationPage()
+        {
+            InitializeComponent();
+        }
 
-        BindingContext = new PercentageCalculationViewModel();
+        private void Percentage1Button_Clicked(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Percentage2Button_Clicked(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Percentage3Button_Clicked(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

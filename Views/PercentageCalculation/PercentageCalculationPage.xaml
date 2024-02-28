@@ -1,54 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="OmniCalc.Views.PercentageCalculation.PercentageCalculationPage"
              Title="Percentage Calculation">
-    <VerticalStackLayout>
-        <Label 
-            Text="Percentage Calculation"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" 
-            FontSize="Large"/>
 
-        <Border
-            Margin="0,20,0,0"
-            WidthRequest="200"
-            BackgroundColor="#403a33">
-            <Entry
-                x:Name="TotalEntry"
-                FontSize="20"
-                HorizontalOptions="FillAndExpand"
-                BackgroundColor="#dbc9b2"
-                PlaceholderColor="#5D4444"
-                Placeholder="Total"
-                IsTextPredictionEnabled="False"
-                Keyboard="Numeric"/>
-        </Border>
+    <StackLayout Padding="20" HorizontalOptions="CenterAndExpand" WidthRequest="{Binding WindowWidth}" HeightRequest="{Binding WindowHeight}">
+        <Label Text="Percentage Calculator" FontSize="Large" HorizontalOptions="Center"/>
 
-        <Border
-            Margin="0,20,0,0"
-            WidthRequest="200"
-            BackgroundColor="#403a33">
-            <Entry
-                x:Name="PercentageEntry"
-                FontSize="20"
-                HorizontalOptions="FillAndExpand"
-                BackgroundColor="#dbc9b2"
-                PlaceholderColor="#5D4444"
-                Placeholder="Percentage"
-                IsTextPredictionEnabled="False"
-                Keyboard="Numeric"/>
-        </Border>
+        <!-- First Calculation -->
+        <Frame CornerRadius="10" BorderColor="Gray" Padding="10" Margin="0,20,0,20">
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label Text="What is" FontSize="Small" VerticalOptions="Center"/>
+                    <Entry x:Name="PercentEntry" Placeholder=" %" Keyboard="Numeric" WidthRequest="60" FontSize="Small"/>
+                    <Label Text="of" FontSize="Small" VerticalOptions="Center"/>
+                    <Entry x:Name="NumberEntry" Placeholder="Number" Keyboard="Numeric" WidthRequest="60" FontSize="Small"/>
+                </StackLayout>
+                <Button Text="Calculate" Clicked="Percentage1Button_Clicked" HorizontalOptions="Center" Margin="0,10,0,0" WidthRequest="120"/>
+                <Entry x:Name="ResultEntry1" IsReadOnly="True" Margin="0,10,0,0" WidthRequest="120" FontSize="Medium"/>
+            </StackLayout>
+        </Frame>
 
-        <Button
-            Text="Calculate"
-            Command="{Binding CalculateCommand}"
-            Margin="0,20,0,0"
-            HorizontalOptions="Center"/>
+        <!-- Second Calculation -->
+        <Frame CornerRadius="10" BorderColor="Gray" Padding="10" Margin="0,20,0,20">
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Entry x:Name="Number1Entry" Placeholder="Number" Keyboard="Numeric" WidthRequest="60" FontSize="Medium"/>
+                    <Label Text=" is what Percent of" FontSize="Small" VerticalOptions="Center"/>
+                    <Entry x:Name="Number2Entry" Placeholder="Number" Keyboard="Numeric" WidthRequest="60" FontSize="Small"/>
+                </StackLayout>
+                <Button Text="Calculate" Clicked="Percentage2Button_Clicked" HorizontalOptions="Center" Margin="0,10,0,0" WidthRequest="120"/>
+                <Entry x:Name="ResultEntry2" IsReadOnly="True" Margin="0,10,0,0" WidthRequest="120" FontSize="Medium"/>
+            </StackLayout>
+        </Frame>
 
-        <Label
-            x:Name="ResultLabel"
-            Margin="0,20,0,0"
-            HorizontalOptions="Center"/>
-    </VerticalStackLayout>
+        <!-- Third Calculation -->
+        <Frame CornerRadius="10" BorderColor="Gray" Padding="10" Margin="0,20,0,0">
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label Text="What is the percentage increase/decrease" FontSize="Small" VerticalOptions="Center"/>
+                    <Entry x:Name="IncreaseDecreaseEntry" Placeholder="Number" Keyboard="Numeric" WidthRequest="60" FontSize="Small"/>
+                    <Label Text=" from" FontSize="Medium" VerticalOptions="Center"/>
+                    <Entry x:Name="FromEntry" Placeholder="Number" Keyboard="Numeric" WidthRequest="60" FontSize="Medium"/>
+                </StackLayout>
+                <Button Text="Calculate" Clicked="Percentage3Button_Clicked" HorizontalOptions="Center" Margin="0,10,0,0" WidthRequest="120"/>
+                <Entry x:Name="ResultEntry3" IsReadOnly="True" Margin="0,10,0,0" WidthRequest="120" FontSize="Medium"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
 </ContentPage>

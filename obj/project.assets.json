@@ -25186,11 +25186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\OmniCalc\\OmniCalc.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\OmniCalc3\\OmniCalc.csproj",
       "projectName": "OmniCalc",
-      "projectPath": "C:\\Users\\opilane\\source\\repos\\OmniCalc\\OmniCalc.csproj",
+      "projectPath": "C:\\Users\\opilane\\source\\repos\\OmniCalc3\\OmniCalc.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\source\\repos\\OmniCalc\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\source\\repos\\OmniCalc3\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
