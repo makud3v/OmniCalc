@@ -57,7 +57,7 @@
         <Label
             ClassId="Result" 
             FontSize="36"
-            Text="77"
+            Text=""
             TextColor="Black"
             HorizontalOptions="Center"
             VerticalOptions="Center"
