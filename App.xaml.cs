@@ -30,7 +30,7 @@ public partial class App : Application
             #endif
         });
 
-        MainPage = new NavigationPage(new AverageCalcPage()); 
+        MainPage = new NavigationPage(new StartPage()); 
         
     }
 }
