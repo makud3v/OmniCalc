@@ -38,7 +38,13 @@ namespace OmniCalc.Views.PercentageCalculation
 
         private void Percentage3Button_Clicked(object sender, EventArgs e)
         {
-            
+            if (float.TryParse(IncreaseDecreaseEntry.Text, out float valueX) && float.TryParse(FromEntry.Text, out float valueY))
+            {
+                float result = 0.0f; // to do
+
+                ResultEntry3.Text = Math.Round(Math.Abs(result) - 100, 1)
+                    .ToString() + "%";
+            }
         }
     }
 }
