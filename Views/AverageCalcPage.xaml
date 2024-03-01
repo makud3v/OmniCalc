@@ -6,15 +6,8 @@
              BackgroundColor="White">
     <VerticalStackLayout>
         <Button 
-            Text="←"
-            FontSize="42"
-            Padding="0.5"
-            Margin="10,0"
-            BackgroundColor="#1A1A9B"
-            HorizontalOptions="Start"
-            VerticalOptions="Start"
+            Style="{StaticResource BackButtonStyle}"
             Clicked="OnBackClicked"
-            TextColor="White"
         />
 
         <Label
@@ -40,17 +33,11 @@
 
         <Button
             Text="Calculate"
-            BorderColor="#000000"
-            BorderWidth="1"
             Padding= "40,10"
             Margin="50"
-            TextColor="White"
-            BackgroundColor="#1A1A9B"
             FontAttributes="Bold"
             HorizontalOptions="Center"
             Clicked="On_Calculated">
-
-
         </Button>
 
 
@@ -58,7 +45,7 @@
         <Label
             ClassId="Result" 
             FontSize="36"
-            Text=""
+            Text="77"
             TextColor="Black"
             HorizontalOptions="Center"
             VerticalOptions="Center"
