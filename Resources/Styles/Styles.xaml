@@ -44,43 +44,21 @@
         <Setter Property="VerticalOptions" Value="StartAndExpand" />
         <Setter Property="TextColor" Value="White" />
         <Setter Property="BorderColor" Value="Black" />
-        <Setter Property="Padding" Value="0,0,0,2" />
+        <Setter Property="Padding" Value="0,8,2,8" />
         <Setter Property="CornerRadius" Value="20" />
         <Setter Property="WidthRequest" Value="50" />
         <Setter Property="HeightRequest" Value="40" />
-        <Setter Property="BackgroundColor" Value="#1A1A9B" />
         <Setter Property="Text" Value="⬅" />
         <Setter Property="FontSize" Value="24" />
     </Style>
 
-
-    <Style TargetType="Entry" x:Key="AverageEntryStyle">
-        <Setter Property="Margin" Value="0,30,0,0" />
-        <Setter Property="HorizontalOptions" Value="Center" />
-        <Setter Property="VerticalOptions" Value="Center" />
-        <Setter Property="TextColor" Value="Black" />
-    </Style>
-
     <Style TargetType="Button">
         <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Primary}}" />
-        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />
         <Setter Property="FontFamily" Value="OpenSansRegular"/>
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="CornerRadius" Value="8"/>
         <Setter Property="Padding" Value="14,10"/>
-        <Setter Property="VisualStateManager.VisualStateGroups">
-            <VisualStateGroupList>
-                <VisualStateGroup x:Name="CommonStates">
-                    <VisualState x:Name="Normal" />
-                    <VisualState x:Name="Disabled">
-                        <VisualState.Setters>
-                            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray200}}" />
-                            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray600}}" />
-                        </VisualState.Setters>
-                    </VisualState>
-                </VisualStateGroup>
-            </VisualStateGroupList>
-        </Setter>
+        <Setter Property="BackgroundColor" Value="#1A1A9B"/>
     </Style>
 
 
