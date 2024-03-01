@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OmniCalc.Views.StartPage"
              Title="Home Page"
-             BackgroundColor="#114161"
+             BackgroundColor="#FFFFFF"
              >
     <VerticalStackLayout
         HorizontalOptions="Center"
@@ -11,44 +11,30 @@
         >
         <Label 
             Text="OmniCalc"
-            FontSize="40"
-            TextColor="#16f5f5"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-
-
-
-        <Button
-            Text="Pythagorean Theorem Calculator"
-            TextColor="#1165FF"
-            HorizontalOptions="StartAndExpand"
-            VerticalOptions="StartAndExpand"
-            FontSize="30"
-            BackgroundColor="#132f42"
-            BorderWidth="0"
-            Clicked="NavigatePythTheoClicked"
+            Style="{StaticResource StartPageHeaderLabel}"
+            Margin="0,0,0,100"
         />
 
-        <Button
-            Text="Percentage Calculator"
-            TextColor="#1165FF"
-            HorizontalOptions="StartAndExpand"
-            VerticalOptions="StartAndExpand"
-            FontSize="30"
-            BackgroundColor="#132f42"
-            BorderWidth="0"
-            Clicked="NavigatePercentClicked"
-        />
+        <VerticalStackLayout
+            VerticalOptions="Center"
+            >
+            <Button
+                Text="Pythagorean Theorem Calculator"
+                Style="{StaticResource StartPageLinkButton}"
+                Clicked="NavigatePythTheoClicked"
+            />
 
-        <Button
-            Text="Average Calculator"
-            TextColor="#1165FF"
-            HorizontalOptions="StartAndExpand"
-            VerticalOptions="StartAndExpand"
-            FontSize="30"
-            BackgroundColor="#132f42"
-            BorderWidth="0"
-            Clicked="NavigateAverageClicked"
-        />
+            <Button
+                Text="Percentage Calculator"
+                Style="{StaticResource StartPageLinkButton}"
+                Clicked="NavigatePercentClicked"
+            />
+
+            <Button
+                Text="Average Calculator"
+                Style="{StaticResource StartPageLinkButton}"
+                Clicked="NavigateAverageClicked"
+            />
+        </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
