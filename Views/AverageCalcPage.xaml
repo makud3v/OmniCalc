@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OmniCalc.Views.AverageCalcPage"
+             Title="Average Calculator"
+             BackgroundColor="White">
+    <VerticalStackLayout>
+        <Button 
+            Style="{StaticResource BackButtonStyle}"
+            Clicked="OnBackClicked"
+        />
+
+        <Label
+            Text="Average Calculator"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="Large"
+            TextColor="Black"
+            Margin="0,50,0,0"/>
+
+        <Label  
+            Text="(a₁ + a₂ + ... + aₙ) ÷ n"
+            FontSize="28"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Margin="0,20,0,0"
+            Padding="10,10,10,10"
+            BackgroundColor="#deb685"
+            TextColor="Black"
+            />
+
+        <VerticalStackLayout ClassId="EntryContainer" />
+
+        <Button
+            Text="Calculate"
+            Padding= "40,10"
+            Margin="50"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            Clicked="On_Calculated">
+        </Button>
+
+
+
+        <Label
+            ClassId="Result" 
+            FontSize="36"
+            Text="77"
+            TextColor="Black"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+         />
+
+
+
+
+
+
+    </VerticalStackLayout>
+</ContentPage>

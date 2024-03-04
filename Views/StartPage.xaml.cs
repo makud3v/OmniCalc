@@ -21,6 +21,6 @@ public partial class StartPage : ContentPage
 
     private void NavigateAverageClicked(object sender, EventArgs e)
     {
-        //Application.Current.MainPage = new NavigationPage(new PythagoreanTheoremPage());
+        Application.Current.MainPage = new NavigationPage(new AverageCalcPage());
     }
 }
