@@ -37,7 +37,8 @@
             Margin="50"
             FontAttributes="Bold"
             HorizontalOptions="Center"
-            Clicked="On_Calculated">
+            Clicked="On_Calculated"
+            TextColor="White">
         </Button>
 
 
