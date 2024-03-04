@@ -35,7 +35,7 @@
         <Setter Property="VerticalOptions" Value="Center" />
         <Setter Property="TextColor" Value="Black" />
     </Style>
-
+ 
 
     <!--Global-->
     <Style TargetType="Button" x:Key="BackButtonStyle">
