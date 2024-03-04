@@ -40,9 +40,9 @@ namespace OmniCalc.Views.PercentageCalculation
         {
             if (float.TryParse(IncreaseDecreaseEntry.Text, out float valueX) && float.TryParse(FromEntry.Text, out float valueY))
             {
-                float result = 0.0f; // to do
+                float result = Math.Abs(100 - valueX  / valueY * 100);
 
-                ResultEntry3.Text = Math.Round(Math.Abs(result) - 100, 1)
+                ResultEntry3.Text = Math.Round(result, 1)
                     .ToString() + "%";
             }
         }
