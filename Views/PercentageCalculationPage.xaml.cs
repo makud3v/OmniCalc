@@ -1,7 +1,7 @@
 using System;
 using Microsoft.Maui.Controls;
 
-namespace OmniCalc.Views.PercentageCalculation
+namespace OmniCalc.Views
 {
     public partial class PercentageCalculationPage : ContentPage
     {
