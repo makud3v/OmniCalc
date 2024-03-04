@@ -2,6 +2,7 @@ namespace OmniCalc.Views;
 
 public partial class PythagoreanTheoremPage : ContentPage
 {
+
 	private Dictionary<string, Entry> _calcEntries = new();
 
 	public PythagoreanTheoremPage()
@@ -16,7 +17,8 @@ public partial class PythagoreanTheoremPage : ContentPage
 			id = id.Replace("CalcEntry:", "");
             _calcEntries[id] = entry;
 		}
-	}
+        Application.Current.UserAppTheme = AppTheme.Light;
+    }
 
 	private float GetCalcVar(string id)
 	{
