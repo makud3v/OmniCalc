@@ -73,6 +73,7 @@
 
 
     <Style TargetType="Entry">
+        <Setter Property="TextColor" Value="Black" />
         <Setter Property="Shadow">
             <Shadow
                 Brush="Gray"
@@ -82,6 +83,10 @@
     </Style>
 
     <Style TargetType="VerticalStackLayout">
+        <Setter Property="BackgroundColor" Value="White"/>
+    </Style>
+    
+    <Style TargetType="StackLayout">
         <Setter Property="BackgroundColor" Value="White"/>
     </Style>
 
