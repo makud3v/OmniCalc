@@ -13,13 +13,13 @@
             <StackLayout>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Label Text="What is" FontSize="Small" VerticalOptions="Center"/>
-                    <Entry x:Name="PercentEntry" Placeholder=" %" Keyboard="Numeric" WidthRequest="50" FontSize="Medium"/>
+                    <Entry x:Name="PercentEntry" Placeholder=" %" Keyboard="Numeric" WidthRequest="50" FontSize="Medium" HorizontalTextAlignment="Center"/>
                     <Label Text="of" FontSize="Small" VerticalOptions="Center"/>
-                    <Entry x:Name="NumberEntry" Placeholder="Number" Keyboard="Numeric" WidthRequest="100" FontSize="Medium"/>
+                    <Entry x:Name="NumberEntry" Placeholder="Number" Keyboard="Numeric" WidthRequest="100" FontSize="Medium" HorizontalTextAlignment="Center"/>
                     <Label Text=" ?" FontSize="Small" VerticalOptions="Center"/>
                 </StackLayout>
                 <Button Text="Calculate" Clicked="Percentage1Button_Clicked" HorizontalOptions="Center" Margin="0,10,0,0" WidthRequest="120"/>
-                <Entry x:Name="ResultEntry1" IsReadOnly="True" Margin="0,10,0,0" WidthRequest="120" FontSize="Medium"/>
+                <Entry x:Name="ResultEntry1" IsReadOnly="True" Margin="0,10,0,0" WidthRequest="200" FontSize="Medium" HorizontalTextAlignment="Center"/>
             </StackLayout>
         </Frame>
 
@@ -27,13 +27,13 @@
         <Frame CornerRadius="10" BorderColor="Gray" Padding="10" Margin="0,20,0,20">
             <StackLayout>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                    <Entry x:Name="Number1Entry" Placeholder="Number" Keyboard="Numeric" WidthRequest="100" FontSize="Medium"/>
+                    <Entry x:Name="Number1Entry" Placeholder="Number" Keyboard="Numeric" WidthRequest="100" FontSize="Medium" HorizontalTextAlignment="Center"/>
                     <Label Text=" is what Percent of" FontSize="Small" VerticalOptions="Center"/>
-                    <Entry x:Name="Number2Entry" Placeholder="Number" Keyboard="Numeric" WidthRequest="100" FontSize="Medium"/>
+                    <Entry x:Name="Number2Entry" Placeholder="Number" Keyboard="Numeric" WidthRequest="100" FontSize="Medium" HorizontalTextAlignment="Center"/>
                     <Label Text=" ?" FontSize="Small" VerticalOptions="Center"/>
                 </StackLayout>
                 <Button Text="Calculate" Clicked="Percentage2Button_Clicked" HorizontalOptions="Center" Margin="0,10,0,0" WidthRequest="120"/>
-                <Entry x:Name="ResultEntry2" IsReadOnly="True" Margin="0,10,0,0" WidthRequest="120" FontSize="Medium"/>
+                <Entry x:Name="ResultEntry2" IsReadOnly="True" Margin="0,10,0,0" WidthRequest="200" FontSize="Medium" HorizontalTextAlignment="Center"/>
             </StackLayout>
         </Frame>
 
@@ -42,13 +42,13 @@
             <StackLayout>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Label Text="Percentage increase/decrease" FontSize="Small" VerticalOptions="Center"/>
-                    <Entry x:Name="IncreaseDecreaseEntry" Placeholder="Number" Keyboard="Numeric" WidthRequest="60" FontSize="Medium"/>
+                    <Entry x:Name="IncreaseDecreaseEntry" Placeholder="Number" Keyboard="Numeric" WidthRequest="60" FontSize="Medium" HorizontalTextAlignment="Center"/>
                     <Label Text=" to" FontSize="Small" VerticalOptions="Center"/>
-                    <Entry x:Name="FromEntry" Placeholder="Number" Keyboard="Numeric" WidthRequest="10" FontSize="Medium"/>
+                    <Entry x:Name="FromEntry" Placeholder="Number" Keyboard="Numeric" WidthRequest="60" FontSize="Medium" HorizontalTextAlignment="Center"/>
                     <Label Text=" ?" FontSize="Small" VerticalOptions="Center"/>
                 </StackLayout>
                 <Button Text="Calculate" Clicked="Percentage3Button_Clicked" HorizontalOptions="Center" Margin="0,10,0,0" WidthRequest="120"/>
-                <Entry x:Name="ResultEntry3" IsReadOnly="True" Margin="0,10,0,0" WidthRequest="120" FontSize="Medium"/> 
+                <Entry x:Name="ResultEntry3" IsReadOnly="True" Margin="0,10,0,0" WidthRequest="200" FontSize="Medium" HorizontalTextAlignment="Center"/>
             </StackLayout>
         </Frame>
     </StackLayout>

@@ -45,6 +45,10 @@ namespace OmniCalc.Views.PercentageCalculation
                 ResultEntry3.Text = Math.Round(result, 1)
                     .ToString() + "%";
             }
+            else
+            {
+                ResultEntry3.Text = "Invalid input";
+            }
         }
     }
 }
