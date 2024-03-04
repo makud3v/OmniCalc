@@ -5,3 +5,5 @@
 /Platforms
 /*.cs
 /*.xaml.cs
+/Views/StartPage.xaml
+/Views/StartPage.xaml.cs
