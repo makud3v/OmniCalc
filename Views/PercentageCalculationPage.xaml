@@ -5,7 +5,11 @@
              x:Class="OmniCalc.Views.PercentageCalculationPage"
              Title="Percentage Calculation">
 
-    <StackLayout Padding="20" HorizontalOptions="CenterAndExpand" WidthRequest="{Binding WindowWidth}" HeightRequest="{Binding WindowHeight}">
+    <VerticalStackLayout Padding="20" WidthRequest="{Binding WindowWidth}" HeightRequest="{Binding WindowHeight}">
+        <Button 
+            Style="{StaticResource BackButtonStyle}"
+            Clicked="OnBackClicked"
+        />
         <Label Text="Percentage Calculator" FontSize="Large" HorizontalOptions="Center"/>
 
         <!-- First Calculation -->
@@ -51,5 +55,5 @@
                 <Entry x:Name="ResultEntry3" IsReadOnly="True" Margin="0,10,0,0" WidthRequest="200" FontSize="Medium" HorizontalTextAlignment="Center"/>
             </StackLayout>
         </Frame>
-    </StackLayout>
+    </VerticalStackLayout>
 </ContentPage>

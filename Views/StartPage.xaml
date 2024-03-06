@@ -9,14 +9,21 @@
         HorizontalOptions="Center"
         VerticalOptions="Center"
         >
-        <Label 
-            Text="OmniCalc"
-            Style="{StaticResource StartPageHeaderLabel}"
-            Margin="0,0,0,100"
-        />
+        <HorizontalStackLayout
+            HorizontalOptions="Center"
+            Margin="0,0"
+            >
+            <Label 
+                Text="Omni"
+                Style="{StaticResource StartPageHeaderLabel}"
+            />
+            <Label 
+                Text="Calc"
+                Style="{StaticResource StartPageHeaderLabelAlt}"
+            />
+        </HorizontalStackLayout>
 
         <VerticalStackLayout
-            VerticalOptions="Center"
             >
             <Button
                 Text="Pythagorean Theorem Calculator"

@@ -102,7 +102,7 @@ public partial class AverageCalcPage : ContentPage
 
     private void OnBackClicked(object sender, EventArgs e)
     {
-        Application.Current.MainPage = new NavigationPage(new StartPage());
+        Application.Current.MainPage = new StartPage();
     }
 }
 
