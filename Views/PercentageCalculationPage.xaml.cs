@@ -50,5 +50,10 @@ namespace OmniCalc.Views
                 ResultEntry3.Text = "Invalid input";
             }
         }
+
+        private void OnBackClicked(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new StartPage();
+        }
     }
 }

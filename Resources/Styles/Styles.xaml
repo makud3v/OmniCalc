@@ -7,9 +7,21 @@
     
     <!--Start page-->
     <Style TargetType="Label" x:Key="StartPageHeaderLabel">
-        <Setter Property="FontSize" Value="70" />
-        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="FontSize" Value="80" />
+        <Setter Property="Padding" Value="30" />
+        <Setter Property="TextColor" Value="#3152f5" />
+        <Setter Property="HorizontalOptions" Value="Start" />
         <Setter Property="VerticalOptions" Value="Start" />
+        <Setter Property="FontFamily" Value="PoppinsRegular" />
+    </Style>
+    <Style TargetType="Label" x:Key="StartPageHeaderLabelAlt">
+        <Setter Property="FontSize" Value="80" />
+        <Setter Property="Padding" Value="30" />
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="HorizontalOptions" Value="Start" />
+        <Setter Property="VerticalOptions" Value="Start" />
+        <Setter Property="Margin" Value="-60,0,0,100" />
+        <Setter Property="FontFamily" Value="PoppinsRegular" />
     </Style>
 
 
@@ -19,7 +31,7 @@
         <Setter Property="BorderWidth" Value="0" />
         <Setter Property="HorizontalOptions" Value="Center" />
         <Setter Property="VerticalOptions" Value="Start" />
-        <Setter Property="FontSize" Value="30" />
+        <Setter Property="FontSize" Value="35" />
     </Style>
     
     

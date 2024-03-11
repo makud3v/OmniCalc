@@ -30,7 +30,6 @@ public partial class App : Application
             #endif
         });
 
-        MainPage = new NavigationPage(new StartPage());
-        
+        MainPage = new StartPage();
     }
 }

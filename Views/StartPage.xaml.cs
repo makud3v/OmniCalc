@@ -11,16 +11,16 @@ public partial class StartPage : ContentPage
 
     private void NavigatePythTheoClicked(object sender, EventArgs e)
     {
-        Application.Current.MainPage = new NavigationPage(new PythagoreanTheoremPage());
+        Application.Current.MainPage = new PythagoreanTheoremPage();
     }
 
     private void NavigatePercentClicked(object sender, EventArgs e)
     {
-        Application.Current.MainPage = new NavigationPage(new PercentageCalculationPage());
+        Application.Current.MainPage = new PercentageCalculationPage();
     }
 
     private void NavigateAverageClicked(object sender, EventArgs e)
     {
-        Application.Current.MainPage = new NavigationPage(new AverageCalcPage());
+        Application.Current.MainPage = new AverageCalcPage();
     }
 }
